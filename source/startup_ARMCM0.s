@@ -148,17 +148,17 @@ up				ldr		 r7, =p1cor
 				subs	 r6, r6, #3
 				str		 r6, [r7]
 				b		 np
-down			ldr		 r7, =p1cor
+down				ldr		 r7, =p1cor
 				ldr		 r6, [r7]
 				adds	 r6, r6, #3
 				str		 r6, [r7]
 				b		 np
-right			ldr		 r7, =p2cor
+right				ldr		 r7, =p2cor
 				ldr		 r6, [r7]
 				subs	 r6, r6, #3
 				str		 r6, [r7]
 				b		 np
-left			ldr		 r7, =p2cor
+left				ldr		 r7, =p2cor
 				ldr		 r6, [r7]
 				adds	 r6, r6, #3
 				str		 r6, [r7]				
