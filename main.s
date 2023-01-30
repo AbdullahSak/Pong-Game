@@ -1,8 +1,3 @@
-;Adullah SAK 040170011
-;Tolga Aksoy 040070090
-;balldir kisina 0, 1 yazarsaniz raketler sektigini görürsünü
-;normal çalisirsa duvardan sektigini görürsünüz 
-;interrupt kismini yazdik ama o kisimi algilamiyor
 
 		AREA	demo, CODE, READONLY
 		EXPORT	__main
